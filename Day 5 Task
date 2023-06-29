@@ -1,0 +1,83 @@
+
+1) var json = [{
+    "Name" : "Subramanian Anand", 
+    "Age"   : "25",
+    "City" : "Tirrupur",
+    "Course": "Full Stack Development"
+}];
+
+//for loop
+for(var i = 0; i < json.length; i++) {
+    var obj = json[i];
+
+    console.log(obj.Name);
+    console.log(obj.Age);
+    console.log(obj.City);
+    console.log(obj.Course);
+}
+
+//for Each
+json.forEach(function(obj) { 
+    console.log(obj.City); 
+});
+
+//for In
+for (var key in json) {
+if (json.hasOwnProperty(key)) {
+  console.log(json[key].Name);
+  console.log(json[key].Age);
+}
+}
+//for Of
+let text = "";
+for (let x of json[key].Course) {
+ text += x; 
+}
+ console.log(text);
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+2) let myResume={
+    "Personal Details": {
+      "Name": "Subramanian S",
+      "Email": "anadh1581997@gamil.com",
+      "Phone.No": 9159721283,
+      "Degree": "B.Tech",
+      "Location": {
+        "Address": "43/1 Ponmuthu Nagar",
+        "PostalCode": 641606,
+        "City": "Tiruppur",
+        "State": "Tamilnadu",
+        "Country": "India"
+      }
+      },
+    "Education": [
+      {
+        "Institution": "Kalasalingam University",
+        "Department": "Mechanical Engineering",
+        "StudyType": "fulltime",
+        "Batch start year": 2015,
+        "Batch end year": 2019,
+        "Gpa": 8.1,
+      }
+    ],
+    "Skills": [
+      {
+        "Name": "Dotnet,javascript",
+        "Level": "Beginner",
+      }
+      ],
+    "Language": [
+      {
+        "Language": "Tamil,Enlish",
+      }
+    ],
+    "Interests": [
+      {
+        "Name": "Nutrition Adivisor",
+      }
+    ]
+  }
+  console.log(myResume);
+  
+
+
+
