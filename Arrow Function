@@ -1,0 +1,51 @@
+1) const isOdd = (n) => (n & 1) === 1;
+
+const num = [1,2,3,4,5,6,7,8,9];
+
+console.log( `Odd numbers are ${ num.filter( n => isOdd(n))}` );
+console.log( `Even numbers are ${ num.filter( n => !isOdd(n))}`);
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+2) const tittlecaps=()=>{
+    let str=("hello world".toLowerCase().split(" "));
+ 
+  for (let i = 0; i < str.length; i++) {
+    str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1); 
+  }
+  console.log(str.join(" "));
+ }; 
+ tittlecaps();
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 3)  const sum=()=>{
+        let str=[50,45,78];
+           let sum=0;
+         for (let i = 0; i < str.length; i++) {
+           sum +=str[i];
+         }
+        console.log(sum);
+        };
+        sum();
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+4) const prime=()=>{
+        var numArray = [2, 3, 4, 5, 6, 7, 8, 9, 10];
+           
+           numArray = numArray.filter((number) => {
+             for (var i = 2; i <= Math.sqrt(number); i++) {
+               if (number % i === 0) return false;
+             }
+             return true;
+           });
+           console.log(numArray);
+       };
+       prime();Return all the prime numbers in an array
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+5) const ask=() =>{
+    var myArray = ['kamak', 'cecarar', 'honda', 'malayalam'];   
+   var b = myArray.filter(function(c,d,f){
+   var Cur = c.split('').reverse().join('');
+   if(c == Cur){
+   console.log( myArray[d] );
+   }
+   });
+   
+ };ask();
+ ----------------------------------------------------------------------------------------------------------------------------------------------------------------
