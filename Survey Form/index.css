@@ -1,0 +1,122 @@
+body {
+    background-color: white;
+    font-family: sans-serif;
+    text-align:start;
+    font-weight: 300;
+    color: black;
+    background-image: url(survey_templates_dribbble-11_4x.jpg);
+}
+.form-text{
+    color: black;
+}
+.req{
+    color: red;
+}
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 0px;
+}
+
+.rate:not(:checked)>input {
+    position: absolute;
+    top: -9999px;
+}
+
+.rate:not(:checked)>label {
+    float: right;
+    width: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 30px;
+    color: black
+    (109, 106, 65);
+}
+
+.rate:not(:checked)>label:before {
+    content: '★ ';
+}
+
+.rate>input:checked~label {
+    color: gold;
+}
+
+.rate:not(:checked)>label:hover,
+.rate:not(:checked)>label:hover~label {
+    color: gold;
+}
+
+#satisfy-table {
+
+    border-collapse: collapse;
+    width: 100%;}
+
+#satisfy-table td {
+        padding: 5px;
+        color: teal;
+        font-weight: normal;
+        text-align: left;
+        align-content: space-between;
+        align-items: baseline;
+}
+#satisfy-table th {
+
+    color: steelblue;
+    font-weight: normal;
+    padding: 5px;
+    align-items: flex-start;
+}
+
+#satisfy-table tr:nth-child(even) {
+    background-color:palegoldenrod;
+
+}
+#like-table {
+
+    border-collapse: collapse;
+    width: 100%;
+
+}
+#like-table td {
+    padding: 5px;
+    color: teal;
+    text-align: left;
+    font-weight: normal;
+    align-items: baseline;
+
+}
+
+#like-table th {
+
+    color: steelblue;
+    font-weight: normal;
+    padding: 5px;
+    font-weight: 30000px;
+    align-items: flex-start;
+}
+
+#like-table tr:nth-child(even) {
+    background-color:palegoldenrod;
+
+}
+
+#button {
+    background-color: slategrey;
+    border: 1px white;
+    border-radius: 8px;
+    font-family: Helvetica;
+    font-weight: 500;
+    height: 55px;
+    color: white;
+    word-spacing: 5px;
+    font-size: 21px;
+    display: block;
+    width: 40%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+#button:hover {
+    box-shadow: 5px 10px 10px 0 rgba(0, 0, 0, 0.24);
+    background-color: steelblue;
+}
