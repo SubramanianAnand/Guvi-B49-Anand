@@ -1,0 +1,209 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    line-height: 1.5;
+    text-align: justify;
+    margin: 0;
+}
+
+.header{
+    background-color: #777;
+    height: 300px;
+    width: 70%;
+    margin: auto;
+}
+
+.header-innerline{
+    background-color:#eee;
+    width: 100%;
+    height: 35px;
+    position: relative;
+    top: 230px;
+}
+
+.name{
+    background-color:gold;
+    display: inline;
+    font-size: 4rem;
+    padding: 10px 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 200px;
+    left: 34%;
+    z-index: 1;
+}
+
+.profile-border{
+    border: 5px dotted gold;
+    position: relative;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    left: 40%;
+}
+
+.profile{
+    position: absolute;
+    background-color:silver;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    text-align: center;
+}
+
+.profile-size{
+    font-size: 10rem;
+}
+.photo{ display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border:2px dotted rgb(234, 254, 14);}
+
+.body{
+    width: 70%;
+    margin: auto;
+}
+
+.contact{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.main-table{
+    width: 100%;
+    padding: 0 5%;
+}
+
+.main-table td{
+    vertical-align: top;
+}
+
+td{
+    width: 33%;
+}
+
+.vertical-line{
+    width: 5%;
+    height: 100%;
+}
+
+.horizontal-line{
+    border-top: 2px solid grey;
+}
+
+.line{
+    border-left: 2px solid grey;
+    height: 1000px;
+    position: relative;
+    left: 50%;
+    margin-top: 25px;
+}
+
+h1{
+    color: grey;
+}
+
+.table-header{
+    text-align: center;
+}
+
+.table-header td{
+    padding-bottom: 10px;
+}
+
+.subtable td{
+    padding: 0px 10px;
+}
+
+progress[value]{
+    width: 170px;
+    height: 20px;
+}
+
+#additional{
+    padding-top: 20px;
+}
+
+meter{
+    width: 100%;
+}
+
+.work-right{
+    vertical-align: top;
+    text-align: right;
+}
+
+.section-head{
+    position: relative;
+}
+
+.icon-border{
+    border: 5px dotted gold;
+    position: relative;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    top: 10px;
+    margin: 20px 0px;
+}
+
+.icon{
+    color: gold;
+    background-color: #777;
+    position: absolute;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.icon .fa{
+    padding-top: 7px;
+}
+
+.section-header{
+    position: absolute;
+    top: 0px;
+    left: 70px;
+}
+
+.outer{
+    height: 7px;
+    width: 100%;
+    background-color: lightgrey;
+}
+
+.inner{
+    background-image: linear-gradient(to right,gold,rgb(255, 242, 172));
+    height:100%;
+}
+
+.circle{
+    background-color: white;
+    height:15px;
+    width:15px;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    margin-left:96%;
+    position:relative;
+    top:-5px;
+}
+
+.progress-80{
+    width: 80%;
+}
+
+.progress-60{
+    width: 60%;
+}
+
+.progress-100{
+    width: 100%;
+}
+
+.adjust{
+    width: 100%;
+}
