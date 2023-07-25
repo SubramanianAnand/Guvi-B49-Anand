@@ -1,0 +1,4 @@
+body{
+    background-image: linear-gradient(to right, #ff2cdf 20%, blue 80%);
+    background-image: norepeat;
+}
