@@ -1,0 +1,128 @@
+@import url("https://fonts.google.com/specimen/Overpass+Mono?preview.text=123%2B-*%2F&preview.text_type=custom&category=Handwriting,Monospace");
+* {
+  font-family: 'Overpass Mono', monospace;;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+body {
+    background-color: paleturquoise;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    user-select: none;
+    transition: 0.3s;
+    background-image: url("cal.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+  background-size: cover;
+  }
+  .container {
+    width: 400px;
+    height: 500px;
+    border: 3px solid dodgerblue;
+    border-radius: 10px;
+  }
+  .value {
+    position: relative;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 20%;
+    padding: 10px;
+    overflow: hidden;
+    border: 3px solid dodgerblue;
+    border-radius: 10px;
+    font-size: 25px;
+  }
+  .problem {
+    position: absolute;
+    width: 93%;
+    height: 45%;
+  }
+  .solution {
+    position: absolute;
+    bottom: 10px;
+    width: 93%;
+    height: 35%;
+    text-align: right;
+  }
+  .button {
+    position: relative;
+    margin-top: 20px;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    height: 60%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+  }
+
+  span {
+    display: grid;
+    place-content: center;
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    border: 3px solid dodgerblue;
+  }
+  span:hover{
+    background-color: aqua;
+  }
+  body .container span:active {
+    color: cyan;
+  }
+  .clear {
+    background-color: #f9ca24 ;
+    color: black;
+    border: 3px solid #f9ca24;
+  }
+  .clear:hover{
+    background-color: yellow;
+  }
+  .plus {
+    grid-row: span 2;
+    background-color: #22a6b3 ;
+    color: black;
+    border: 3px solid #22a6b3;
+  }
+  .symbol {
+    font-size: 20px;
+    background-color: #22a6b3;
+    border: 3px solid #22a6b3;
+  }
+  .symbol:hover{
+    background-color:palegreen;
+  }
+  .equal {
+    background-color: #2ecc71 ;
+    color: black;
+    font-size: 30px;
+    border: 3px solid #2ecc71;
+  }
+  .equal:hover{
+    background-color:lightgreen;
+  }
+
+  @media (max-width: 400px) {
+    .container {
+      width: 375px;
+    }
+    .clear {
+      font-size: 18px;
+    }
+  }
+  @media (max-width: 375px) {
+    .container {
+      width: 360px;
+    }
+  }
+  
