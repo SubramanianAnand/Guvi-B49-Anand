@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+    justify-content:center;
+}
+body{
+    background-image: url(Library-Wallpaper-34-3920x2206-1-2048x1153.jpg);
+    background-repeat: no-repeat;
+    background-size:auto;
+}

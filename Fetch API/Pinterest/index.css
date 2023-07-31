@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+    justify-content:flex-start;
+}
+body{
+    background-image: url(pinterest-logo.png);
+    background-repeat: no-repeat;
+    background-size:auto;
+}
