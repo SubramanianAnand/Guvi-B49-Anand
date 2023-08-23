@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background:url(https://res.cloudinary.com/practicaldev/image/fetch/s--BuPz-p40--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nphrgz8yfnjylrwfr0yl.png) no-repeat top center;
+  background-size:cover;
+}
+.fsd{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card{
+  margin: 20px;
+  padding: 20px;
+  background-color:powderblue;
+}
+
+.ds{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.cs{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.career{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.nav{
+  display: flex;
+}
+
+.nav:hover{
+  color: deeppink;
+}
+
+.nav.active{
+  color:aqua;
+  background-color: #fff;
+  border-color: none;
+}
