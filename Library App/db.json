@@ -1,0 +1,81 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "imageUrl":"https://tutorialzine.com/media/2015/05/eloquent.png",
+      "isbn": "9781593275846",
+      "title": "Eloquent JavaScript, Second Edition",
+      "subtitle": "A Modern Introduction to Programming",
+      "author": "Marijn Haverbeke",
+      "publisher": "No Starch Press",
+      "pages": 472
+    },
+    {
+      "id": 2,
+      "imageUrl":"https://covers.oreillystatic.com/images/0636920025832/lrg.jpg",
+      "isbn": "9781449331818",
+      "title": "Learning JavaScript Design Patterns",
+      "subtitle": "A JavaScript and jQuery Developer's Guide",
+      "author": "Addy Osmani",
+      "publisher": "O'Reilly Media",
+      "pages": 254
+    },
+    {
+      "id": 3,
+      "imageUrl":"https://dbwebb.se/image/bok/cover-speakingjs.jpg",
+      "isbn": "9781449365035",
+      "title": "Speaking JavaScript",
+      "subtitle": "An In-Depth Guide for Programmers",
+      "author": "Axel Rauschmayer",
+      "publisher": "O'Reilly Media",
+      "pages": 460
+    },
+    {
+      "id": 4,
+      "imageUrl":"https://learning.oreilly.com/library/cover/9781491950289/250w/",
+      "isbn": "9781491950296",
+      "title": "Programming JavaScript Applications",
+      "subtitle": "Robust Web Architecture with Node, HTML5, and Modern JS Libraries",
+      "author": "Eric Elliott",
+      "publisher": "O'Reilly Media",
+      "pages": 254
+    },
+    {
+      "id": 5,
+      "imageUrl":"https://is4-ssl.mzstatic.com/image/thumb/Publication111/v4/55/f1/5a/55f15a57-addd-3df9-4996-6dad3a7493b5/9781593277987.jpg/1200x630wz.png",
+      "isbn": "9781593277574",
+      "title": "Understanding ECMAScript 6",
+      "subtitle": "The Definitive Guide for JavaScript Developers",
+      "author": "Nicholas C. Zakas",
+      "publisher": "No Starch Press",
+      "pages": 352
+    }
+  ],
+  "authors": [
+    {
+      "name": "Marijn Haverbeke",
+      "dob": 1980,
+      "about": "Marijn Haverbeke is a programming language enthusiast and polyglot. He's worked his way from trivial BASIC games on the Commodore, through a C++ phase, to the present where he mostly hacks on database systems and web APIs in dynamic languages. He recently won the JS1K—JavaScript demo in 1024 bytes—contest, and is the author of a wide range of open-source software."
+    },
+    {
+      "name": "Addy Osmani",
+      "dob": 1986,
+      "about": "Addy Osmani is an Irish software engineer, author and speaker who works for Google as an Engineering Manager. He is currently leading developer tooling for Google Chrome, Google's web browser"
+    },
+    {
+      "name": "Axel Rauschmayer",
+      "dob": 1985,
+      "about": "Dr. Axel Rauschmayer specializes in JavaScript and web technologies. He blogs at 2ality.com, teaches web development for ecmanauten.de, edits JavaScript Weekly and organizes Munichâs JavaScript user group (munichjs.de)."
+    },
+    {
+      "name": "Eric Elliott",
+      "dob": 1955,
+      "about": "Eric Elliott is a veteran JavaScript application architect. He has contributed to software experiences for Adobe Systems, Zumba Fitness, The Wall Street Journal, ESPN, BBC, and top recording artists including Usher, Frank Ocean, Metallica, and many more. He is an author, frequent public speaker, and consultant."
+    },
+    {
+      "name": "Nicholas C. Zakas",
+      "dob": 1980,
+      "about": "Nicholas C. Zakas is a front-end consultant, author, and speaker. He worked at Yahoo! for almost five years, where he was front-end tech lead for the Yahoo! homepage and a contributor to the YUI library."
+    }
+  ]
+}
