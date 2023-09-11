@@ -1,0 +1,42 @@
+Batch.SQL :-
+
+	CREATE TABLE `batch` (
+  `BatchId` varchar(5) NOT NULL,
+  `Duration` int DEFAULT NULL,
+  `StartDate` varchar(10) DEFAULT NULL,
+  `EndDate` varchar(10) DEFAULT NULL,
+  PRIMARY KEY (`BatchId`))
+  
+Mentor.SQL :-
+
+	CREATE TABLE `mentor` (
+  `MentorId` int NOT NULL,
+  `Name` varchar(50) DEFAULT NULL,
+  `Email` varchar(50) DEFAULT NULL,
+  `Phone` int DEFAULT NULL,
+  PRIMARY KEY (`MentorId`))
+  
+Student.SQL :-
+
+	CREATE TABLE `students` (
+  `Id` int NOT NULL AUTO_INCREMENT,
+  `Name` varchar(50) DEFAULT NULL,
+  `Email` varchar(50) DEFAULT NULL,
+  `Phone` int DEFAULT NULL,
+  `Mentor` int DEFAULT NULL,
+  `Batch` varchar(5) DEFAULT NULL,
+  PRIMARY KEY (`Id`),
+  KEY `Mentor` (`Mentor`),
+  KEY `Batch` (`Batch`),
+  CONSTRAINT `students_ibfk_1` FOREIGN KEY (`Mentor`) REFERENCES `mentor` (`MentorId`),
+  CONSTRAINT `students_ibfk_2` FOREIGN KEY (`Batch`) REFERENCES `batch` (`BatchId`))
+  
+Task.SQL :-
+
+	CREATE TABLE `task` (
+  `TaskId` int DEFAULT NULL,
+  `StudentId` int DEFAULT NULL,
+  `Result` enum('Pending','Submitted') DEFAULT NULL,
+  KEY `StudentId` (`StudentId`),
+  CONSTRAINT `task_ibfk_1` FOREIGN KEY (`StudentId`) REFERENCES `students` (`Id`)
+) 
