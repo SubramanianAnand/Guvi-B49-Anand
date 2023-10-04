@@ -15,6 +15,7 @@
     .BaseUrlAddon {
         width: 100% !important;
         font-size: 15px !important;
+        overflow: hidden;
     }
 
     .InputGroup input {
